@@ -2,7 +2,7 @@ original = "the quick brown fox!!"
 # Remove "the " at the start (first 4 chars), and one "!" at the end
 result = original [4:-1:-1]
 print(result)  # Output: quick brown fox!
-# Answer: [-17:-1:1],[-17:-1:1], and [4:-1] correct answers
+# Answer: [-17:-1:1],[-17:-1], and [4:-1] correct answers
 # ignore the last character which is ":1" and work from there
 def add(a,b):
     return a+5,b+5
