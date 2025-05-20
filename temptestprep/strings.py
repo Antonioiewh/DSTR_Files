@@ -1,12 +1,12 @@
 original = "the quick brown fox!!"
 
 # Examples 
-print(f'Example 1 with it being original[::-2]: {original[::-2]}')  # Output: [5, 3, 1]
+print(f'Example 1 with it being original[::-2]: {original[::-2]}')  
 # Explanation
 # Include element at index -2 and skip over every 2nd element when going backwards 
 
 # Example 2
-print(f'Example 2 with it being original[-2::]: {original[-2::]}')   # Output: [1, 3, 5]
+print(f'Example 2 with it being original[-2::]: {original[-2::]}')   
 # Explanation
 # Include element at index -2 and print til end
 
