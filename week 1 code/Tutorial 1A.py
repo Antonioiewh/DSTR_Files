@@ -59,7 +59,10 @@ if len(min(programming.values())) == programming[6].count('a'):
 else:
     print("false")
 
-
+# First focus on (min(programming.values()), it retrieves the key with the lowest value. 
+# Secondly, programming[6], 6 is the key while .count('') returns the count of the letter
+# Thirdly len(min(programming.values()) gets the number of letters in the lowest value
+# Lastly the if statement asks if the number of letters in the lowest value is equal to the number of times the letter 'a' appears in the value of key 6 
 x = [2, 4, 6, 8]
 y = [5, 10, 15, 20]
 
