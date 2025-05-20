@@ -6,10 +6,13 @@ print(list[::-1])  # Output: [5, 4, 3, 2, 1]
 # It means start from and the step size (so if the step size is 2 you're skipping every 2nd element)
 # So in this case we are starting from the end of the list and going backwards
 # So the output is [5, 4, 3, 2, 1]
+# For [::] cases:
+# If element in front: print till end
+# If element at back: print till start plus skip over every X elements
 # To and fro, if to -> exclude it, if fro-> include it
 
 
-# Example 
+# Examples 
 print(f'Example 1 with it being list [::-2]: {list[::-2]}')  # Output: [5, 3, 1]
 # Explanation
 # Include element at index -2 and skip over every 2nd element when going backwards 
@@ -17,12 +20,40 @@ print(f'Example 1 with it being list [::-2]: {list[::-2]}')  # Output: [5, 3, 1]
 # Example 2
 print(f'Example 2 with it being list [-2::]: {list[-2::]}')   # Output: [1, 3, 5]
 # Explanation
-# Include element at index -2 and skip over every 2nd element when going backwards 
+# Include element at index -2 and print til end
 
 # Example 3
-print(f'Example 3 with it being list [::2]: {list[::2]}')
+print(f'Exaple 3 with it being list [:-2] {list[:-2]}')
+#Explanation start from the element after -2 which is 3 till the end
 
-#Example 3
+# Example 4
+print(f'Exaple 4 with it being list [:-2] {list[-2:]}')
+#Explanation start from element at -2 till the end
+
+
+# Example 5
+print(f'Example 3 with it being list [::2]: {list[::2]}')
+# Explanation
+# Include element at index 2 and skip over every 2nd element when going backwards
+
+#Example 6
+print(f'Example 6 with it being list[2::] {list[2::]}')
+# Explanation
+# Include element at index 2 and print til end
+
+#Example 7
+print(f'Example 7 with it being list[:2] {list[:2]}')
+# Explanation
+# Exclude element at index 2 and print till end
+
+
+#Example 8
+print(f'Example 8 with it being list[2:] {list[2:]}')
+# Explanation
+# Include element at index 2 and print till end
+
+
+#Example 5
 #Turn "the quick brown fox!!" turn into "quick brown fox!"
 #Options ( multi select)
 # [4:-1:-1]
