@@ -76,6 +76,10 @@ for i in x:
 60
 40
 80"""
+# A nested for loop is used as the question states mulitply each value of X with Y which suggests the first loop will be X and 2nd being Y
+# For I in X i will then compare with EACH AND EVERY SINGLE element of y 
+# the if statement is pretty self explanatory with there being 2 conditions that MUST be fulfilled being the element in X must be greater than 5 and element in Y must be lesser than 12
+# if both conditions are met, print out the product of the element in X and Y 
 
 var = 8
 def my_func(x):
@@ -84,3 +88,5 @@ def my_func(x):
     var = 12
     
 my_func(10)
+#global var means you're USING THE GLOBAL VARIABLE AKA THE ONE NOT IN THE FUNCTION this will allow you to directly alter the values of the global variables
+# var = 12 wont affect the output as it's AFTER the print line
