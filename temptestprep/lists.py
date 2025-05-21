@@ -31,9 +31,9 @@ print(f'Exaple 4 with it being list [-2:] {list[-2:]}')
 # Start at element at index -2, print till end
 
 # Example 5
-print(f'Example 5 being list [-2::-2] {list[-2::-2]}')
+print(f'Example 5 being list [-2::-2] {list[-2::-3]}')
 # Explanation
-# Start at index -2, step by -2 
+# Start at index -2, step by -3
 # Example 6
 print(f'Example 5 being list [-2::-2] {list[-2::2]}')
 # Start at index -2, step by 2
