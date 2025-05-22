@@ -56,10 +56,10 @@ unsorted_list = [1, 2, 3, 5, 4]
 sorted_list = [1,2,3,4,5]
 print('Using optimised:')
 print(bubbleSort_optimized(unsorted_list))
-#print(bubbleSort_optimized(sorted_list))
+print(bubbleSort_optimized(sorted_list))
 print('Using unoptimised:')
 print(bubbleSort(unsorted_list))
-#print(bubbleSort(sorted_list))
+print(bubbleSort(sorted_list))
 
 #Qn1b:How many pass(es) is(are) required to sort the following list of numbers with the
 # standard Bubble Sort and the optimized Bubble Sort?
