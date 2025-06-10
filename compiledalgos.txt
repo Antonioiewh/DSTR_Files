@@ -1,0 +1,47 @@
+Compilation of Big O time + space so far
+
+Topic 3
+
+Binary Search 
+Time: log n
+Space: O(1)
+
+Topic 4
+
+Bubble Sort
+Time: O (n)^2
+Space: O(1)
+
+Selection Sort
+Time O (n)^2
+Space: O(1)
+
+
+Insertion Sort
+
+Time: O(n)
+Space: O(1)
+
+Topic 5
+-none
+
+Topic 6
+
+Merge sort
+
+Time: O(n log n)
+Space: O (n)
+
+Quick sort
+
+Time: O (n log n)
+Space: O (log n)
+
+
+Topic 7
+
+-none
+
+
+
+
