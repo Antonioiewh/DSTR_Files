@@ -39,8 +39,19 @@ Space: O (log n)
 
 
 Topic 7
+- array but more complex
 
--none
+Topic 8
+- Stacks ( just understand post,pre and infix and you should be good enough )
+
+Topic 9 
+-Linked lists
+-Structure of list node,linked list operations
+
+Topic 10
+-Queues
+-Circular array
+
 
 
 
