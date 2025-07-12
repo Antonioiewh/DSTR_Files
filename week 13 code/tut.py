@@ -1,6 +1,7 @@
 # Topic 08: Stacks
 #
 # 1. Transform the following infix expressions to postfix and prefix:
+# Read left to right for infix, right to left for prefix !
 #
 #    a. (A * B) / C
 #       - Postfix: A B * C /
