@@ -1,0 +1,8 @@
+Topic 3: binary_search
+Topic 4: bubble_sort,*insertion_sort_selection_sort
+Topic 5: recursion
+Topic 6: merge_sort, *quick_sort
+Topic 7: dynamic_array
+Topic 8: Stacks
+Topic 9: Linked lists
+Topic 10: quques
